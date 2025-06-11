@@ -5,10 +5,8 @@ import './App.css'
 function App() {
 
   return (
-    <div>
+    <div className="App">
       <Navbar />
-
-      <h2>Movies Lib</h2>
       <Outlet />
     </div>
       
